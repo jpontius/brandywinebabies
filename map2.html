@@ -4,41 +4,7 @@
 <meta charset=utf-8 />
 <title>A Simple Map</title>
 
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+<script src="https://embed.github.com/view/geojson/jpontius/brandywinebabies/maseter/service_area.geo.json?height=400&width=800"></script>
 
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
-</head>
-<body>
-<div id='map'></div>
-<script>
-var map = L.mapbox.map('map', 'examples.map-9ijuk24y', {zoomControl: false})
-    .setView([41.893300, -86.247349], 11);
-
-    // disable drag and zoom handlers
-map.dragging.disable();
-map.touchZoom.disable();
-map.doubleClickZoom.disable();
-map.scrollWheelZoom.disable();
-// disable tap handler, if present.
-if (map.tap) map.tap.disable();
-
-
-// Define circle options
-// http://leafletjs.com/reference.html#circle
-var circle_options = {
-    color: '#352AFA',      // Stroke color
-    opacity: 1,         // Stroke opacity
-    weight: 2,         // Stroke weight
-    fillColor: '#9994FF',  // Fill color
-    fillOpacity: 0.2    // Fill opacity
-};
-
-var circle_one = L.circle([41.893300, -86.247349], 20000, circle_options).addTo(map);
-</script>
 </body>
 </html>
