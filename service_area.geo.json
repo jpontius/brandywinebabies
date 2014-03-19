@@ -1,3 +1,3 @@
 {"type":"FeatureCollection","properties":{"kind":"state","state":"MI"},"features":[
-{"type":"Feature","properties":{"kind":"county","name":"Berrien","state":"MI"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-86.497201, 42.090509],[-85.950785, 42.090509],[-85.950785, 41.760484],[-86.821474, 41.759945],[-86.579190, 41.943012]]]]}}
+{"type":"Feature","properties":{"kind":"county","name":"Berrien","state":"MI"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-86.497201, 42.090509],[-85.950785, 42.090509],[-85.950785, 41.760484],[-86.821474, 41.759945],[-86.684076, 41.840091],[-86.579190, 41.943012]]]]}}
 ]}
